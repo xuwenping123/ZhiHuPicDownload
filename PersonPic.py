@@ -12,6 +12,7 @@ import yaml
 def requestdata(url):
     res = urllib.request.urlopen(url)
     data = res.read()
+    res.close()
     return json.loads(data)
 
 def nextpageurl(data):
