@@ -37,6 +37,11 @@ yaml
 进入个人主页，点击回答，查看浏览器请求信息，关注answers? 这条请求，拷贝request url替换zhihu.url
 ![](http://t1.aixinxi.net/o_1cn149i5u1tujcm4j7mv49765a.png-j.jpg)
 
+配置好 application.yml后，直接使用 python 运行即可
+```
+$ python PersionoPic.py
+```
+
 #### 时效
 
 截止2018/9/10，上述方式仍然可以download
